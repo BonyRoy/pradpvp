@@ -29,7 +29,7 @@ const Projects = () => {
           </div>
           <ul>
             <li>  Vender Document Checking and Completion</li>
-            <li>Vender Bill Releasing and Mpping</li>
+            <li>Vender Bill Releasing and Mapping</li>
             {/* Add more responsibilities as needed */}
           </ul>
         </div>
