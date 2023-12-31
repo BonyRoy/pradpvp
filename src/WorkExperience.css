@@ -1,0 +1,70 @@
+/* WorkExperience.css */
+
+.work-experience-section {
+    margin-top: 40px;
+  }
+  
+  .timeline {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .job {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: calc(33.33% - 20px);
+    transition: transform 0.3s;
+  }
+  
+  .job:hover {
+    transform: translateY(-5px);
+  }
+  
+  .job-header {
+    margin-bottom: 10px;
+  }
+  
+  .job h3 {
+    color: #333;
+  }
+  
+  .company-info {
+    font-style: italic;
+    margin-bottom: 8px;
+  }
+  
+  .duration {
+    color: #777;
+  }
+  
+  ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  li {
+    margin-bottom: 8px;
+  }
+  
+  .section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .timeline {
+      flex-direction: column;
+    }
+  
+    .job {
+      width: 100%;
+    }
+  }
+  
