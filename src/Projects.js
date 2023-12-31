@@ -11,7 +11,7 @@ const Projects = () => {
           <div className="job-header">
             <h3>Assistant Hr</h3>
             <p className="company-info">Company Name 1 - Dmart</p>
-            <p className="duration">Duration: 2 Months - Dec 2021</p>
+            <p className="duration">Duration: Nov 2021 - Dec 2021</p>
           </div>
           <ul>
             <li>  Bill management</li>
@@ -37,7 +37,7 @@ const Projects = () => {
         <div className="job">
           <div className="job-header">
             <h3>PF and ESIC Remittance</h3>
-            <p className="company-info">Company Name 3 - Relianca and Jio</p>
+            <p className="company-info">Company Name 3 - Reliance Jio</p>
             <p className="duration">Duration: Jan 2024 - Till date</p>
           </div>
         </div>
